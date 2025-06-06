@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.HospitalBE.Hospital.repositoryTests.DepartmentRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-06T15:39:05" hostname="DESKTOP-NVJ0S2E" time="0.05">
+  <properties/>
+  <testcase name="testFindById()" classname="com.HospitalBE.Hospital.repositoryTests.DepartmentRepositoryTest" time="0.05"/>
+  <system-out><![CDATA[2025-06-06T17:39:05.328+02:00  INFO 3888 --- [Hospital] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.HospitalBE.Hospital.repositoryTests.DepartmentRepositoryTest]: DepartmentRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-06T17:39:05.341+02:00  INFO 3888 --- [Hospital] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.HospitalBE.Hospital.HospitalApplication for test class com.HospitalBE.Hospital.repositoryTests.DepartmentRepositoryTest
+Hibernate: insert into department (code,department_name,id) values (?,?,default)
+Hibernate: insert into admission_history (admission_date,department_id,discharge_cause,discharge_date,patient_id,id) values (?,?,?,?,?,default)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

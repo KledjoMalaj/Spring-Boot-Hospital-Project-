@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.HospitalBE.Hospital.ControllerTests.PatientControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-06-06T15:39:03" hostname="DESKTOP-NVJ0S2E" time="0.078">
+  <properties/>
+  <testcase name="testListPatients()" classname="com.HospitalBE.Hospital.ControllerTests.PatientControllerTest" time="0.02"/>
+  <testcase name="testUpdatePatient()" classname="com.HospitalBE.Hospital.ControllerTests.PatientControllerTest" time="0.027"/>
+  <testcase name="testAddPatient()" classname="com.HospitalBE.Hospital.ControllerTests.PatientControllerTest" time="0.012"/>
+  <testcase name="testDeletePatient()" classname="com.HospitalBE.Hospital.ControllerTests.PatientControllerTest" time="0.011"/>
+  <system-out><![CDATA[2025-06-06T17:39:03.524+02:00  INFO 3888 --- [Hospital] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.HospitalBE.Hospital.ControllerTests.PatientControllerTest]: PatientControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-06T17:39:03.541+02:00  INFO 3888 --- [Hospital] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.HospitalBE.Hospital.HospitalApplication for test class com.HospitalBE.Hospital.ControllerTests.PatientControllerTest
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2025-06-06T17:39:03.576+02:00  INFO 3888 --- [Hospital] [    Test worker] c.H.H.C.PatientControllerTest            : Starting PatientControllerTest using Java 21.0.2 with PID 3888 (started by User in C:\Users\User\Desktop\JAP APP Project\Hospital)
+2025-06-06T17:39:03.576+02:00  INFO 3888 --- [Hospital] [    Test worker] c.H.H.C.PatientControllerTest            : No active profile set, falling back to 1 default profile: "default"
+2025-06-06T17:39:03.913+02:00  INFO 3888 --- [Hospital] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-06-06T17:39:03.914+02:00  INFO 3888 --- [Hospital] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-06-06T17:39:03.915+02:00  INFO 3888 --- [Hospital] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-06-06T17:39:03.922+02:00  INFO 3888 --- [Hospital] [    Test worker] c.H.H.C.PatientControllerTest            : Started PatientControllerTest in 0.376 seconds (process running for 9.603)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
